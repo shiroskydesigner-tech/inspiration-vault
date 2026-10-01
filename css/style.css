@@ -1,0 +1,42 @@
+*{
+   box-sizing: border-box;
+ }
+img{
+   object-fit: cover;
+   width: 100%;
+}
+
+article{
+    background-color: rgb(233, 233, 232);
+    border-radius: 12px;
+    color: rgb(71, 71, 71);
+    overflow: hidden;
+    box-shadow: 0px 12px 32px rgba(0,0,0,0.14);
+    
+}
+.content{
+    padding:16px;    
+}
+ 
+
+ul{
+    list-style:none; 
+    display:flex;
+    gap: 8px;
+    margin: 0px;
+    padding: 10px 0px;
+}
+li{     
+    border-radius: 20px;
+    background-color: rgb(252, 252, 252);
+    padding: 5px;
+    
+   
+}
+
+.article_table{
+   display: grid;
+   grid-template-columns:repeat(auto-fit,minmax(280px,1fr)) ;
+   gap: 25px;
+}
+  

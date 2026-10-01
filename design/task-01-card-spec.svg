@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="358" viewBox="0 0 680 358" font-family="'Noto Sans TC','Microsoft JhengHei','Segoe UI',sans-serif">
+<rect x="0" y="0" width="680" height="358" fill="#ffffff"/>
+<text x="60" y="32" font-size="14" font-weight="500" fill="#1f1f1f">回合 1 完成時</text>
+<rect x="60" y="48" width="190" height="107" fill="#ececec" stroke="#d0d0d0" stroke-width="0.5"/>
+<text x="155" y="106" font-size="12" fill="#6f6f6f" text-anchor="middle">封面圖 16:9</text>
+<text x="60" y="180" font-size="14" font-weight="500" fill="#1f1f1f">Awwwards</text>
+<text x="60" y="202" font-size="12" fill="#185FA5">awwwards.com</text>
+<rect x="60" y="206" width="78" height="1" fill="#185FA5"/>
+<circle cx="92" cy="224" r="2.5" fill="#6f6f6f"/>
+<text x="104" y="228" font-size="12" fill="#1f1f1f">設計靈感</text>
+<circle cx="92" cy="248" r="2.5" fill="#6f6f6f"/>
+<text x="104" y="252" font-size="12" fill="#1f1f1f">作品集</text>
+<rect x="60" y="266" width="52" height="24" rx="3" fill="#ececec" stroke="#c4c4c4" stroke-width="0.5"/>
+<text x="86" y="282" font-size="12" fill="#1f1f1f" text-anchor="middle">刪除</text>
+<text x="350" y="32" font-size="14" font-weight="500" fill="#1f1f1f">任務 1 最終目標</text>
+<rect x="350" y="48" width="200" height="254" rx="12" fill="#ffffff" stroke="#d4d4d4" stroke-width="0.5"/>
+<rect x="350" y="48" width="200" height="112" rx="12" fill="#ececec"/>
+<rect x="350" y="136" width="200" height="24" fill="#ececec"/>
+<text x="450" y="110" font-size="12" fill="#6f6f6f" text-anchor="middle">封面圖 16:9</text>
+<rect x="366" y="176" width="168" height="110" fill="none" stroke="#b8b8b8" stroke-width="0.5" stroke-dasharray="4 3"/>
+<text x="366" y="192" font-size="14" font-weight="500" fill="#1f1f1f">Awwwards</text>
+<text x="366" y="214" font-size="12" fill="#185FA5">awwwards.com</text>
+<rect x="366" y="226" width="62" height="24" rx="12" fill="#E6F1FB" stroke="#85B7EB" stroke-width="0.5"/>
+<text x="397" y="242" font-size="12" fill="#185FA5" text-anchor="middle">設計靈感</text>
+<rect x="436" y="226" width="52" height="24" rx="12" fill="#E6F1FB" stroke="#85B7EB" stroke-width="0.5"/>
+<text x="462" y="242" font-size="12" fill="#185FA5" text-anchor="middle">作品集</text>
+<rect x="366" y="260" width="56" height="26" rx="6" fill="#ffffff" stroke="#c4c4c4" stroke-width="0.5"/>
+<text x="394" y="277" font-size="12" fill="#1f1f1f" text-anchor="middle">刪除</text>
+<line x1="552" y1="54" x2="562" y2="54" stroke="#b8b8b8" stroke-width="0.5" stroke-dasharray="3 2"/>
+<text x="566" y="58" font-size="12" fill="#6f6f6f">圓角 12px</text>
+<line x1="552" y1="106" x2="562" y2="106" stroke="#b8b8b8" stroke-width="0.5" stroke-dasharray="3 2"/>
+<text x="566" y="110" font-size="12" fill="#6f6f6f">圖片 16:9</text>
+<line x1="552" y1="178" x2="562" y2="178" stroke="#b8b8b8" stroke-width="0.5" stroke-dasharray="3 2"/>
+<text x="566" y="182" font-size="12" fill="#6f6f6f">內距 16px</text>
+<line x1="552" y1="240" x2="562" y2="240" stroke="#b8b8b8" stroke-width="0.5" stroke-dasharray="3 2"/>
+<text x="566" y="244" font-size="12" fill="#6f6f6f">間距 8px</text>
+<line x1="352" y1="318" x2="548" y2="318" stroke="#6f6f6f" stroke-width="1"/>
+<line x1="350" y1="312" x2="350" y2="324" stroke="#6f6f6f" stroke-width="1"/>
+<line x1="550" y1="312" x2="550" y2="324" stroke="#6f6f6f" stroke-width="1"/>
+<text x="450" y="336" font-size="12" fill="#6f6f6f" text-anchor="middle">外框寬 320px</text>
+</svg>
