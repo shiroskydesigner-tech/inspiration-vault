@@ -1,4 +1,4 @@
-function createCard(card){
+function createCard(card,index){
     return`<article>        
             <img src="${card.image}" alt="ref_Image">    
             
@@ -8,7 +8,7 @@ function createCard(card){
                 <ul role="list">
                     ${card.tags.map(tag => `<li> ${tag} </li>`).join("")}
                 </ul>
-                <button>刪除</button>
+                <button data-index="${index}">刪除</button>
             </div>
         </article>` 
 }
@@ -22,14 +22,19 @@ const cards = [
 {image:"./assets/Image06.jpg",link:"https://6awwward.com",h3:"六 敘事一詞，氣息06",tags:["設計靈感","作品集","666集"]},
 ];
 
-
-
 const wall = document.querySelector(".article_table");
-wall.innerHTML = cards.map(card => createCard(card)).join("");
 
-
+function render() {
+wall.innerHTML = cards.map( (card, index) => createCard(card, index) ).join("");
+}
+render();
 
 wall.addEventListener('click',function(event){
-    if (event.target.tagName === "BUTTON" ){console.log("要刪了")}
-    
-})
+    if (event.target.tagName === "BUTTON" ){
+        const index = event.target.dataset.index; 
+        cards.splice(index, 1);                       
+        render();  }
+});
+
+
+0

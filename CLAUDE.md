@@ -43,9 +43,12 @@
 
 ## 專案進度
 
-六個階段：1 靜態版面 → 2 資料變畫面 → 3 新增與刪除 → 4 localStorage → 5 搜尋與篩選 → 6 打磨與上線（GitHub Pages）。
+目標：**2026/12/31 達到初階前端工程師水準**。10/7 到 12/31 共 59 個平日上課日，每堂約 2 小時，36 個單位分四個階段：
+收藏庫完成（純 JS）→ 非同步與 API → React（用 React 重做收藏庫）→ 求職準備。
 
-目前：**階段 1、2 已完成**，正在建立 Git 版本控制，下一步是階段 3。
+每堂課的結構：10 分鐘複習 → 80 分鐘寫程式 → 20 分鐘 commit 與口試 → 10 分鐘更新進度網站與手札。
+卡住 15 分鐘就給提示；每堂結束一定有一筆 commit；上課時間只寫專案，不做工具功能。
 
-完整教程：`C:\Users\Win\.claude\plans\vibecoding-lexical-kazoo.md`
+完整計畫：`C:\Users\Win\.claude\plans\vibecoding-lexical-kazoo.md`
+進度網站（每堂課結束後用 ArtifactData 更新，頁面本身不提供編輯）：https://claude.ai/artifact/9UkA8c3ugbnzxVvFVVSx9o
 互動筆記（每堂課後要更新）：https://claude.ai/artifact/6iAPtm5Jcod5G9s1otckkD
