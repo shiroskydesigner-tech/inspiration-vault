@@ -22,6 +22,14 @@ const cards = [
 {image:"./assets/Image06.jpg",link:"https://6awwward.com",h3:"六 敘事一詞，氣息06",tags:["設計靈感","作品集","666集"]},
 ];
 
+
+
 const wall = document.querySelector(".article_table");
 wall.innerHTML = cards.map(card => createCard(card)).join("");
-　
+
+
+
+wall.addEventListener('click',function(event){
+    if (event.target.tagName === "BUTTON" ){console.log("要刪了")}
+    
+})

@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="460" viewBox="0 0 900 460" font-family="'Noto Sans TC','PingFang TC','Microsoft JhengHei',system-ui,sans-serif">
+  <rect width="900" height="460" fill="#FBFCFD"/>
+
+  <text x="40" y="44" font-size="22" font-weight="700" fill="#17202B">階段 3 · 回合 1：讓刪除按鈕真的會刪</text>
+  <text x="40" y="68" font-size="13" fill="#5A6575">規格圖 — 這張圖說明「該發生什麼」，不說明「怎麼寫」</text>
+  <line x1="40" y1="86" x2="860" y2="86" stroke="#D6DCE3"/>
+
+  <text x="40" y="116" font-size="15" font-weight="700" fill="#17202B">① 使用者按下「刪除」</text>
+  <text x="330" y="116" font-size="15" font-weight="700" fill="#17202B">② 從資料裡移除那一筆</text>
+  <text x="620" y="116" font-size="15" font-weight="700" fill="#17202B">③ 整面牆重新產生</text>
+
+  <rect x="40" y="130" width="240" height="215" rx="10" fill="#FFFFFF" stroke="#E3E8EF"/>
+  <rect x="330" y="130" width="240" height="215" rx="10" fill="#FFFFFF" stroke="#E3E8EF"/>
+  <rect x="620" y="130" width="240" height="215" rx="10" fill="#FFFFFF" stroke="#E3E8EF"/>
+
+  <rect x="72" y="150" width="176" height="172" rx="8" fill="#FFFFFF" stroke="#CFD6E0"/>
+  <rect x="72" y="150" width="176" height="64" rx="8" fill="#DBE7FB"/>
+  <rect x="72" y="200" width="176" height="14" fill="#DBE7FB"/>
+  <rect x="88" y="228" width="96" height="8" rx="4" fill="#C8CFD9"/>
+  <rect x="88" y="246" width="44" height="15" rx="7.5" fill="#EEF1F5"/>
+  <rect x="138" y="246" width="44" height="15" rx="7.5" fill="#EEF1F5"/>
+  <rect x="88" y="276" width="56" height="26" rx="6" fill="#FFFFFF" stroke="#D92D20" stroke-width="1.6"/>
+  <text x="116" y="293" font-size="12" fill="#D92D20" text-anchor="middle">刪除</text>
+  <circle cx="152" cy="289" r="2.5" fill="#D92D20"/>
+  <line x1="152" y1="289" x2="196" y2="289" stroke="#D92D20" stroke-width="1.2"/>
+  <text x="201" y="293" font-size="11" fill="#D92D20">按這顆</text>
+
+  <text x="352" y="156" font-size="11" fill="#5A6575">cards 陣列</text>
+  <rect x="352" y="166" width="196" height="20" rx="4" fill="#F4F6F9" stroke="#E3E8EF"/>
+  <text x="364" y="180" font-size="11" fill="#5A6575">第 1 張</text>
+  <rect x="352" y="190" width="196" height="20" rx="4" fill="#F4F6F9" stroke="#E3E8EF"/>
+  <text x="364" y="204" font-size="11" fill="#5A6575">第 2 張</text>
+  <rect x="352" y="214" width="196" height="20" rx="4" fill="#FDE8E8" stroke="#D92D20"/>
+  <text x="364" y="228" font-size="11" fill="#D92D20">第 3 張</text>
+  <line x1="358" y1="224" x2="542" y2="224" stroke="#D92D20" stroke-width="1.2"/>
+  <text x="556" y="229" font-size="13" fill="#D92D20">✕</text>
+  <rect x="352" y="238" width="196" height="20" rx="4" fill="#F4F6F9" stroke="#E3E8EF"/>
+  <text x="364" y="252" font-size="11" fill="#5A6575">第 4 張</text>
+  <rect x="352" y="262" width="196" height="20" rx="4" fill="#F4F6F9" stroke="#E3E8EF"/>
+  <text x="364" y="276" font-size="11" fill="#5A6575">第 5 張</text>
+  <rect x="352" y="286" width="196" height="20" rx="4" fill="#F4F6F9" stroke="#E3E8EF"/>
+  <text x="364" y="300" font-size="11" fill="#5A6575">第 6 張</text>
+  <text x="352" y="330" font-size="12" fill="#5A6575">6 筆 → 5 筆</text>
+
+  <rect x="648" y="170" width="58" height="48" rx="6" fill="#E8EDF5" stroke="#D4DBE4"/>
+  <rect x="714" y="170" width="58" height="48" rx="6" fill="#E8EDF5" stroke="#D4DBE4"/>
+  <rect x="780" y="170" width="58" height="48" rx="6" fill="#E8EDF5" stroke="#D4DBE4"/>
+  <rect x="648" y="230" width="58" height="48" rx="6" fill="#E8EDF5" stroke="#D4DBE4"/>
+  <rect x="714" y="230" width="58" height="48" rx="6" fill="#E8EDF5" stroke="#D4DBE4"/>
+  <text x="648" y="330" font-size="12" fill="#5A6575">剩 5 張，順序不變</text>
+
+  <line x1="288" y1="237" x2="320" y2="237" stroke="#8A94A6" stroke-width="1.4"/>
+  <polygon points="324,237 316,233 316,241" fill="#8A94A6"/>
+  <line x1="578" y1="237" x2="610" y2="237" stroke="#8A94A6" stroke-width="1.4"/>
+  <polygon points="614,237 606,233 606,241" fill="#8A94A6"/>
+
+  <rect x="40" y="366" width="820" height="68" rx="8" fill="#FEF6EE" stroke="#E5C08A"/>
+  <text x="60" y="392" font-size="13" fill="#8A4B12">✗ 不要直接把畫面上那個 &lt;article&gt; 元素抓出來移掉。</text>
+  <text x="60" y="414" font-size="13" fill="#17202B">✓ 先改資料（陣列），再讓整面牆重新產生一次 — 畫面永遠是資料算出來的結果。</text>
+</svg>
